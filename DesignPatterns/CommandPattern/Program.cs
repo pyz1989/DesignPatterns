@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SingletonPattern
+namespace CommandPattern
 {
     class Program
     {

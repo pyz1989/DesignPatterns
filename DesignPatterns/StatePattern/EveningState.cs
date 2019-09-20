@@ -11,7 +11,13 @@ namespace StatePattern
     {
         public override void Handler(Context context)
         {
-            throw new NotImplementedException();
+            if (context.Hour >= 18 && context.Hour < 24)
+            {
+                Console.WriteLine("晚上好...");
+                return;
+            }
+            context.State = new MorningState();
+            context.Request();
         }
     }
 }
