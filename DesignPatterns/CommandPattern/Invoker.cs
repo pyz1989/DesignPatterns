@@ -4,6 +4,9 @@ using System.Text;
 
 namespace CommandPattern
 {
+    /// <summary>
+    /// 要求改命令执行这个请求
+    /// </summary>
     public class Invoker
     {
         private List<ICommand> commandList = new List<ICommand>();
