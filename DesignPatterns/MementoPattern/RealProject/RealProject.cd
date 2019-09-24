@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MementoPattern.RealProject.Caretaker">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RealProject\Caretaker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MementoPattern.RealProject.Leaflet">
+    <Position X="5.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAQAAAAAAAAAAABAAAAAACQgAA=</HashCode>
+      <FileName>RealProject\Leaflet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MementoPattern.RealProject.Memento">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>RealProject\Memento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
