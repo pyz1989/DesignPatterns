@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Linq;
 using System.Text;
 
 namespace TemplateMethodPattern.RealProject
@@ -23,7 +24,10 @@ namespace TemplateMethodPattern.RealProject
 
         public virtual bool IsContains(DataRow row)
         {
-            return true;
+            var nowDate = DateTime.Now.ToString("M:d");
+            var days = MySqlHelper.GetString(row, "executedays");
+            var isContain = days.Split(',').Contains(nowDate);
+            return isContain;
         }
     }
 }
