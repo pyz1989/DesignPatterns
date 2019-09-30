@@ -27,13 +27,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MementoPattern", "MementoPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IteratorPattern", "IteratorPattern\IteratorPattern.csproj", "{EC667914-B17D-4E3A-B740-DB7C842B55DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "MediatorPattern\MediatorPattern.csproj", "{57E51A21-8BFA-4A49-9228-E8C5543F21DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatorPattern", "MediatorPattern\MediatorPattern.csproj", "{57E51A21-8BFA-4A49-9228-E8C5543F21DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{A7839015-9FB8-4BEF-B0FB-E0643D0DE32B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{A7839015-9FB8-4BEF-B0FB-E0643D0DE32B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{59AE9E9C-C428-43B5-A27F-5BBFD605FD88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{59AE9E9C-C428-43B5-A27F-5BBFD605FD88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{12D8ECCE-ECD4-4BBF-995C-52D585A586E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{12D8ECCE-ECD4-4BBF-995C-52D585A586E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyPattern", "ProxyPattern\ProxyPattern.csproj", "{80D2175D-527A-443D-9666-C41497C05903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyWCFServer", "ProxyWCFServer\ProxyWCFServer.csproj", "{4E6A6363-1FAF-41FE-A63C-FE29D7D59640}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{12D8ECCE-ECD4-4BBF-995C-52D585A586E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12D8ECCE-ECD4-4BBF-995C-52D585A586E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12D8ECCE-ECD4-4BBF-995C-52D585A586E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80D2175D-527A-443D-9666-C41497C05903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80D2175D-527A-443D-9666-C41497C05903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80D2175D-527A-443D-9666-C41497C05903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80D2175D-527A-443D-9666-C41497C05903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E6A6363-1FAF-41FE-A63C-FE29D7D59640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6A6363-1FAF-41FE-A63C-FE29D7D59640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6A6363-1FAF-41FE-A63C-FE29D7D59640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6A6363-1FAF-41FE-A63C-FE29D7D59640}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
