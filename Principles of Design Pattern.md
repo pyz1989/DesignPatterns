@@ -114,12 +114,6 @@ public interface IOrder3() {
 }
 ```
 
-
-
-
-
-
-
 ## 7. 里氏替换原则
 
 父类存在的地方，子类都可以替换，并且行为不发生改变...
@@ -139,3 +133,10 @@ public interface IOrder3() {
    违反了“里氏替换原则”
 
    生物学上分类不见得在面向对象中行的通 【特例】
+
+
+
+
+
+**相关链接：** 1. [面向对象六大原则](https://www.cnblogs.com/liushen/p/Design_Patterns_Principles.html)
+
